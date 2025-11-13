@@ -1,12 +1,12 @@
 public class BankAccount {
 
-    double balance;
+    protected double balance;
 
-    BankAccount(){
+    public BankAccount(){
         balance = 0.0;
     }
 
-    BankAccount(double balance){
+    public BankAccount(double balance){
         this.balance = balance;
     }
 
